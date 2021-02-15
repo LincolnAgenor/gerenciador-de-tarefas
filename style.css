@@ -1,0 +1,8 @@
+.tela1{
+    height: 200px;
+    background-color: rgba(139, 127, 127, 0.876);
+    display: flex;
+}
+.tarefa{
+    padding-left: 20px;
+}
