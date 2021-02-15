@@ -1,8 +1,20 @@
+.titulo{
+    text-align: center;
+}
+
 .tela1{
     height: 200px;
     background-color: rgba(139, 127, 127, 0.876);
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+     
+}
+.gerenciador{
+    padding: 20px;
+    margin: 5px;
 }
 .tarefa{
-    padding-left: 20px;
+    padding: 20px;
+    margin: 5px;
 }
