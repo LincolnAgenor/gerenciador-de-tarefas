@@ -3,18 +3,15 @@
 }
 
 .tela1{
+    display: flex;
     height: 200px;
     background-color: rgba(139, 127, 127, 0.876);
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
-     
 }
 .gerenciador{
     padding: 20px;
-    margin: 5px;
-}
-.tarefa{
-    padding: 20px;
-    margin: 5px;
+    margin-left: 450px;
+    margin-right: 100px;
+    justify-content: space-around;
 }
