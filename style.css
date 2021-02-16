@@ -1,17 +1,28 @@
 .titulo{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .tela1{
-    display: flex;
     height: 200px;
-    background-color: rgba(139, 127, 127, 0.876);
     display: flex;
-    align-items: flex-start;
+    background-color: rgba(53, 43, 43, 0.178);
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 .gerenciador{
-    padding: 20px;
-    margin-left: 450px;
-    margin-right: 100px;
-    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+.tarefas{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+#add{
+    margin-top: 25px;
+}
+#edit{
+    margin-top: 25px;
 }
