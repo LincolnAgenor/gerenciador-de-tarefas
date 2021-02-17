@@ -2,27 +2,31 @@
     display: flex;
     justify-content: center;
 }
-
 .tela1{
-    height: 200px;
+    background-color: white;
     display: flex;
-    background-color: rgba(53, 43, 43, 0.178);
     justify-content: center;
-    flex-wrap: nowrap;
 }
 .gerenciador{
-    padding: 10px;
+    padding: 20px;
     margin: 5px;
-    width: 200px;
 }
-.tarefas{
-    padding: 10px;
+.tarefas{}
+.botoes{
+    flex-direction: column;
+    padding: 20px;
     margin: 5px;
-    width: 200px;
 }
-#add{
-    margin-top: 25px;
+.tela2{
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-#edit{
-    margin-top: 25px;
+.input{
+    margin: 25px;
+}
+.enviar{
+    margin-left: 350px;
+    margin-top: 20px;
 }
