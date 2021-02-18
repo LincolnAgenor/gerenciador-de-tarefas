@@ -1,3 +1,5 @@
+li{list-style: none;}
+
 .tela1{
     display: flex;
     width: 1200px;
@@ -8,10 +10,19 @@
 .coluna{
     padding: 20px;
     margin: 5px;
-    color: #fff;
-    background-color: black;
     width: 600px;
 }
 .titulo{
     margin-left: 160px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-top: 25px;
 }
