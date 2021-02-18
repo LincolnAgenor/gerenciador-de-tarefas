@@ -1,9 +1,17 @@
 .tela1{
     display: flex;
+    width: 1200px;
+    flex-direction: row;
+    margin-left: 70px;
+
 }
 .coluna{
     padding: 20px;
     margin: 5px;
     color: #fff;
     background-color: black;
+    width: 600px;
+}
+.titulo{
+    margin-left: 160px;
 }
