@@ -1,32 +1,9 @@
-.titulo{
-    display: flex;
-    justify-content: center;
-}
 .tela1{
-    background-color: white;
     display: flex;
-    justify-content: center;
 }
-.gerenciador{
+.coluna{
     padding: 20px;
     margin: 5px;
-}
-.tarefas{}
-.botoes{
-    flex-direction: column;
-    padding: 20px;
-    margin: 5px;
-}
-.tela2{
-    display: none;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-.input{
-    margin: 25px;
-}
-.enviar{
-    margin-left: 350px;
-    margin-top: 20px;
+    color: #fff;
+    background-color: black;
 }
