@@ -3,15 +3,17 @@ i{margin-top: 25px;}
 i.fas.fa-plus-square{
     margin-left: 100px;
 }
+header{border-bottom: 2px solid #333;
+width: 1200px; margin-left: 75px;}
 
 .tela1{
     display: flex;
     width: 1200px;
-    flex-direction: row;
     margin: auto;
 
 }
 .coluna{
+    flex-direction: row;
     padding: 20px;
     margin: 20px;
     width: 600px;
@@ -37,4 +39,7 @@ i.fas.fa-plus-square{
 .select{
     display: flex;
     align-self: center;
+}
+.gerenciador{
+    border-right: 2px solid #333;
 }
