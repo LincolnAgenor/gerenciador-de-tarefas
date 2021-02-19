@@ -1,10 +1,14 @@
 li{list-style: none;}
+i{margin-top: 25px;}
+i.fas.fa-plus-square{
+    margin-left: 100px;
+}
 
 .tela1{
     display: flex;
     width: 1200px;
     flex-direction: row;
-    margin-left: 70px;
+    margin: auto;
 
 }
 .coluna{
@@ -13,13 +17,14 @@ li{list-style: none;}
     width: 600px;
 }
 .titulo{
+    display: flex;
     margin-left: 160px;
 }
-.a{
+.gerenciador{
     display: flex;
     justify-content: space-between;
 }
-.c{
+.botoes{
     display: flex;
     justify-content: space-between;
 }
