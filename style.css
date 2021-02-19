@@ -4,7 +4,9 @@ i.fas.fa-plus-square{
     margin-left: 100px;
 }
 header{border-bottom: 2px solid #333;
-width: 1200px; margin-left: 75px;}
+width: 1200px; margin-left: 75px; display: flex;
+margin: auto;
+}
 
 .tela1{
     display: flex;
