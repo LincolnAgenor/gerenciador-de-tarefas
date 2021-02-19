@@ -8,7 +8,7 @@ width: 1200px; margin-left: 75px; display: flex;
 margin: auto;
 }
 
-.tela1{
+.tela{
     display: flex;
     width: 1200px;
     margin: auto;
@@ -44,4 +44,21 @@ margin: auto;
 }
 .gerenciador{
     border-right: 2px solid #333;
+}
+
+.tela2{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    margin-left: 500px;
+    width: 150px;
+}
+.obs{
+    margin-right: 50px;
+}
+.InpTarefa{
 }
