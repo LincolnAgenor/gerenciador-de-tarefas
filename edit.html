@@ -13,28 +13,32 @@
         <h1 class="titulo">Editor de tarefas</h1>
     </header>
     <section class="tela2">
-        <div class="input InpTarefa">
-            <label for="tarefa">tarefa : </label>
-            <input type="text" name="tarefa"  id="tarefa" placeholder="lavar o Carro" />
-        </div>    
-        <div class="input observacao">
-            <label  for="observação">observação : </label>
-            <input class="obs" type="text" name="observação" id="obs" placeholder="observação" />
+        <div class="modificadores">
+                <div class="input InpTarefa">
+                    <label class="label" for="tarefa">tarefa : </label>
+                    <input type="text" name="tarefa"  id="tarefa" placeholder="lavar o Carro" />
+                </div>    
+                <div class="input obs">
+                    <label class="label" for="observação">observação : </label>
+                    <input class="obs" type="text" name="observação" id="obs" placeholder="observação" />
+                </div>
+                <div class=" input data">
+                    <label class="label" for="observação">data : </label>
+                    <input type="text" name="data"  id="data" placeholder="lavar o Carro" />
+                </div>
+                
+                <div class="escolha">
+                    <label class="label" for="status">status : </label>
+                    <SELECT name="status">
+                        <OPTION>proxima
+                        <OPTION>a fazer
+                        <OPTION>terminadas
+                    </SELECT>
+                </div>
+            </div>    
+        <div class="enviar">
+            <button >enviar</button>
         </div>
-        <div class="input data">
-            <label for="observação">data : </label>
-            <input type="text" name="data"  id="data" placeholder="lavar o Carro" />
-        </div>
-        <div class="selectEdit">
-            <SELECT name="status">
-                <OPTION>proxima
-                <OPTION>a fazer
-                <OPTION>terminadas
-            </SELECT>
-        </div>
-        <button class="enviar">
-            enviar
-        </button>
     </section>
 </body>
 </html>

@@ -1,18 +1,19 @@
+body{margin: 0px;}
 li{list-style: none;}
 i{margin-top: 25px;}
 i.fas.fa-plus-square{
     margin-left: 100px;
 }
 header{border-bottom: 2px solid #333;
-width: 1200px; margin-left: 75px; display: flex;
+  display: flex;
 margin: auto;
 }
 
-.tela1{
+
+.colunas{
     display: flex;
     width: 1200px;
     margin: auto;
-
 }
 .coluna{
     flex-direction: row;
@@ -27,6 +28,8 @@ margin: auto;
 .gerenciador{
     display: flex;
     justify-content: space-between;
+    border-right: 2px solid #333;
+
 }
 .botoes{
     display: flex;
@@ -42,38 +45,40 @@ margin: auto;
     display: flex;
     align-self: center;
 }
-.gerenciador{
-    border-right: 2px solid #333;
-}
 .tela2{
+    flex-direction: row;
+    justify-content: center;
     display: flex;
     width: 1200px;
     margin: auto;
-    justify-content: center;
-    flex-direction: column;
 }
 .input{
-    margin-left: 500px;
-    width: 150px;
+    display: flex;
     margin-top: 50px;
-}
-.obs{
-    margin-right: 50px;
+    align-self: center;
 }
 .enviar{
-    width: 50px;
-    margin-top: 50px;
-    margin-left: 550px;
+    display: flex;
+    margin-top: 230px;
+    align-self: center;
 }
-.selectAdd{
+
+.escolha{
+    margin-top: 0px;
     display: flex;
     align-self: center;
     margin-right: 50px;
     margin-top: 50px;
 }
-.selectEdit{
+.escolha{
     display: flex;
-    align-self: center;
-    margin-right: 50px;
-    margin-top: 50px;
+    width: 178px;
+    margin-top: 20px;
+}
+.modificadores{
+    flex-direction: column;
+    display: flex ;
+}
+.obs{
+    margin-right: 20px;
 }
