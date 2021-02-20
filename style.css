@@ -82,3 +82,10 @@ margin: auto;
 .obs{
     margin-right: 20px;
 }
+.tela3{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
