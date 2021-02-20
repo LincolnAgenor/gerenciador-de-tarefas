@@ -55,9 +55,25 @@ margin: auto;
 .input{
     margin-left: 500px;
     width: 150px;
+    margin-top: 50px;
 }
 .obs{
     margin-right: 50px;
 }
-.InpTarefa{
+.enviar{
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+.selectAdd{
+    display: flex;
+    align-self: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.selectEdit{
+    display: flex;
+    align-self: center;
+    margin-right: 50px;
+    margin-top: 50px;
 }
