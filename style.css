@@ -33,15 +33,53 @@ header .col {
   border-right: 3px solid #333;
 }
 
-.lista_e_funcoes .row .col .row .gerenciadores {
+.lista_e_funcoes .row .col .row .funcoes {
   display: flex;
   justify-content: space-around;
 }
 
-.lista_e_funcoes .row .col .status {
+.lista_e_funcoes .row .col .seletor {
   width: 185px;
   padding: 0px;
   margin: 0px;
+}
+
+.lista .tarefa{
+  height: 60px;
+}
+
+.lista .status{
+  margin-top: 4px;
+}
+
+.lista .status h3{
+  margin-left: 15px;
+}
+
+.lista .status p{
+  margin: 0px;
+  margin-top: 21px;
+  margin-right: 34px;
+}
+
+.lista .observacao h3{
+  margin-left: 15px;
+}
+
+.lista .observacao p{
+  margin: 0px;
+  margin-top: 21px;
+  margin-right: 34px;
+}
+
+
+.lista .gerenciadores{
+  width: 185px;
+  margin-top: 45px;
+}
+
+.lista .gerenciadores .fas{
+  margin: 5px;
 }
 /*fim lista_e_funcoes*/
 
