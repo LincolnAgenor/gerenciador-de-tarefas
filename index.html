@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="PT-br">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/31eb394f1c.js" crossorigin="anonymous"></script>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/31eb394f1c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>gerenciador de tarefas</title>
-</head>
+  </head>
 
-<body>
-    
-
-    <section class="tela1">
-        <header>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
             <h1 class="titulo">gerenciador de tarefas</h1>
-        </header>
-        <div class="colunas" >
-            <div class="coluna gerenciador">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="lista_e_funcoes">
+      <div class="container">
+        <div class="row">
+          <div class="col linha">
+            <div class="row">
+              <div class="col gerenciadores">
                 <i class="fas fa-plus-square fa-3x"></i>
                 <i class="far fa-edit fa-3x"></i>
-                <div class="select">
-                    <SELECT name="status">
-                        <OPTION>todas
-                        <OPTION>proxima
-                        <OPTION>a fazer
-                        <OPTION>terminadas
-                        <OPTION>excluidas
-                    </SELECT>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col status">
+                <label class="label" for="status">status : </label>
+                <select name="status">
+                  <option>todas</option>
+                  <option>proxima</option>
+                  <option>a fazer</option>
+                  <option>terminadas</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <div class="tarefa">
+                  <div class="row">
+                  <div class="col">
+                    <h1>Lavar o carro</h1>
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                      <label for="status">status :</label>
+                      <p>proxima</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <label for="observacao">observacao :</label>
+                    <p>comprar produtos para lavar o carro</p>
+                  </div>
                 </div>
-            </div>
-            <div class="coluna tarefas">
-                <li><h2>Lavar o Carro</h2></li>
-            </div>
-            <div class="coluna botoes">
+              </div>
+              <div class="col editores">
                 <i class="fas fa-play fa-2x"></i>
                 <i class="fas fa-check-square fa-2x"></i>
                 <i class="fas fa-trash-alt fa-2x"></i>
+              </div>
             </div>
+          </div>
         </div>
-        
+      </div>
     </section>
-</body>
-<script src="java.js"></script>
+  </body>
 </html>
